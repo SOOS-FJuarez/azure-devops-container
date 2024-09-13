@@ -1,0 +1,11 @@
+# NOTE: requires a Linux build agent
+
+- task: SOOS-Security-Analysis@0
+  displayName: Security Analysis
+  continueOnError: true
+  inputs:
+    clientId: ih9994159
+    apiKey: NTNmOGNjMzItMTcxZi00ZmU2LTlkZDItYjU0ZDFlMDVlODEx
+    scanType: 'CSA'
+    projectName: "AzureDevOps - Container"
+    targetToScan: debian
