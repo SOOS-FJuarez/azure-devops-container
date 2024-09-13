@@ -1,0 +1,27 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+# NOTE: requires a Linux build agent
+
+- task: SOOS-Security-Analysis@0
+  displayName: Security Analysis
+  continueOnError: true
+  inputs:
+    clientId: ih9994159
+    apiKey: NTNmOGNjMzItMTcxZi00ZmU2LTlkZDItYjU0ZDFlMDVlODEx
+    baseUri: https://qa-api.soos.io/api/
+    scanType: 'CSA'
+    projectName: "AzureDevOps - Container 1"
+    targetToScan: debian
+    dockerImageTag: alpha
+
+
