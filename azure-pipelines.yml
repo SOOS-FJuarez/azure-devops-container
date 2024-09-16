@@ -15,10 +15,10 @@ steps:
     apiKey: MWIzYjIwMzgtNzc5NC00ZmI2LWIyZjAtMmYxZDhkMzY4ZjI3
     baseUri: https://qa-api.soos.io/api/
     scanType: 'CSA'
-    projectName: "AzureDevOps - Container 7"
+    projectName: "AzureDevOps - Container 8"
     targetToScan: debian
-    logLevel: debian
-    outputFormat: NONE
+    logLevel: INFO
+    outputFormat: SPDX
     dockerImageTag: alpha
 
 
