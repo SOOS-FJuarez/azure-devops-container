@@ -16,7 +16,8 @@ steps:
     baseUri: https://qa-api.soos.io/api/
     scanType: 'CSA'
     projectName: "AzureDevOps - Container 5"
-    targetToScan: invalidTargetImage
+    targetToScan: debian
+    logLevel: invalid
     dockerImageTag: alpha
 
 
