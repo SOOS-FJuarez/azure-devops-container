@@ -15,11 +15,10 @@ steps:
     apiKey: MWIzYjIwMzgtNzc5NC00ZmI2LWIyZjAtMmYxZDhkMzY4ZjI3
     baseUri: https://qa-api.soos.io/api/
     scanType: 'CSA'
-    projectName: "AzureDevOps - Container 10"
+    projectName: "AzureDevOps - Container 11"
     targetToScan: debian
     logLevel: DEBUG
-    branch: azure-test-branch
-    outputFormat: SARIF
+    onFailure: FAIL_THE_BUILD
     dockerImageTag: alpha
 
 
