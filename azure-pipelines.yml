@@ -17,6 +17,6 @@ steps:
     scanType: 'CSA'
     projectName: "AzureDevOps - Container 1"
     #targetToScan: debian
-    dockerImageTag: alpha
+    #dockerImageTag: alpha
 
 
