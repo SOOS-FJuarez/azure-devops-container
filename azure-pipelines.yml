@@ -15,8 +15,8 @@ steps:
     apiKey: MWIzYjIwMzgtNzc5NC00ZmI2LWIyZjAtMmYxZDhkMzY4ZjI3
     baseUri: https://qa-api.soos.io/api/
     scanType: 'CSA'
-    projectName: "AzureDevOps - Container 1"
-    #targetToScan: debian
-    #dockerImageTag: alpha
+    projectName: "AzureDevOps - Container 5"
+    targetToScan: invalidTargetImage
+    dockerImageTag: alpha
 
 
