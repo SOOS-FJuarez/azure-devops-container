@@ -15,10 +15,11 @@ steps:
     apiKey: MWIzYjIwMzgtNzc5NC00ZmI2LWIyZjAtMmYxZDhkMzY4ZjI3
     baseUri: https://qa-api.soos.io/api/
     scanType: 'CSA'
-    projectName: "AzureDevOps - Container 9"
+    projectName: "AzureDevOps - Container 10"
     targetToScan: debian
-    onFailure: CONTINUE_ON_FAILURE
-    otherOptions: "-o cyclonedx-xml"
+    logLevel: DEBUG
+    branch: azure-test-branch
+    outputFormat: SARIF
     dockerImageTag: alpha
 
 
