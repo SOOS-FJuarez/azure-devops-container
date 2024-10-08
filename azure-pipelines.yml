@@ -7,17 +7,18 @@ pool:
 steps:
 # NOTE: requires a Linux build agent
 
-- task: SOOS-Security-Analysis@0
+- task: DEV-SOOS-Security-Analysis@0
   displayName: Security Analysis
   continueOnError: true
   inputs:
-    clientId: oczlfuebe
-    apiKey: MWIzYjIwMzgtNzc5NC00ZmI2LWIyZjAtMmYxZDhkMzY4ZjI3
+    clientId: zwzksilww
+    apiKey: YmFhNjRlZDQtZTM1NC00MGUzLTk4M2YtMDNhNjRlNDQzMzgz
     baseUri: https://qa-api.soos.io/api/
     scanType: 'CSA'
-    projectName: "AzureDevOps - Container 12"
+    projectName: "AzureDevOps - Container"
     targetToScan: debian
-    logLevel: WARN
-    dockerImageTag: alpha
+    logLevel: INFO
+    dockerImageTag: beta
+    verbose: true
 
 
