@@ -11,14 +11,15 @@ steps:
   displayName: Security Analysis
   continueOnError: true
   inputs:
-    clientId: zwzksilww
-    apiKey: YmFhNjRlZDQtZTM1NC00MGUzLTk4M2YtMDNhNjRlNDQzMzgz
+    clientId: t812utmcl
+    apiKey: M2UwNjYyZGMtNzUwNS00MGJhLWIzZDAtMGUwMjlhMzU3OWVj
     baseUri: https://qa-api.soos.io/api/
     scanType: 'CSA'
     projectName: "AzureDevOps - Container"
     targetToScan: debian
     logLevel: INFO
     dockerImageTag: beta
+    outputFormat: SPDX
     verbose: true
 
 
