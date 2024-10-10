@@ -17,9 +17,9 @@ steps:
     scanType: 'CSA'
     projectName: "AzureDevOps - Container"
     targetToScan: debian
-    logLevel: test
+    logLevel: DEBUG
     dockerImageTag: beta
-    #outputFormat: SPDX
+    outputFormat: SARIF
     #verbose: true
 
 
